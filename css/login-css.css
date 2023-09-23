@@ -1,22 +1,39 @@
-.modal-header {
-	color: #04C9F4!important;
-	background-color: white!important;
-}
-
-.container {
+.corpo{
 	background-color: #E7E7E7!important;
-	max-width: none!important;
 }
 
-.form {
-	background-color: #D9D9D9;
-	padding: 10px;
+.header-h{
+	height: 45px;
+	font-size: 12px;
+	color: #04C9F4;
+}
+
+.content-l{
+	height: calc(100vh - 45px);
+	overflow: auto;
+	background-color: #E7E7E7!important;
+}
+
+.form-login{
+	background-color: #D9D9D9!important;
 	width: 394px;
-	height: 335px;
-	top: 169px;
-	left: 208px;
 }
 
-article{
-	height: 80%;
+.user{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.password{
+	padding: 5px 40px;
+}
+
+.send{
+	width: 160px!important;
+	background-color: #04C9F4!important;
+	color: white!important;
+}
+
+.div-send{
+	padding: 10px;
 }

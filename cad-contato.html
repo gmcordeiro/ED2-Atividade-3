@@ -2,11 +2,63 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link href="css/cad-contao.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"></script>
 	<title>Cadastro de Contatos</title>
 </head>
-<body>
+<body class="d-flex flex-column align-items-start flex-fill corpo">
+	<div class="d-flex align-items-center w-100 justify-content-start header-h">
+		Cadastro de Contatos
+	</div>
+	<div class="d-flex flex-column align-items-center justify-content-start w-100">
+		<div class="d-flex">
+			<div class="d-flex flex-column">
+				<form class="card cad-form m-3">
+					<div class="d-grid">
+						<div class="row p-1">
+							<div class="col">
+								<label for="name" class="l-name text-white">Nome</label>
+								<input required type="text" class="form-control w-100" id="name">
+							</div>
+							<div class="col">
+								<label for="surName" class="l-name text-white">Sobrenome</label>
+								<input required type="text" class="form-control w-100" id="surName">
+							</div>
+						</div>
+					</div>
+					<div class="address p-1">
+						<label for="address" class="l-name text-white">Endereço</label>
+						<input required type="text" class="form-control" id="address">
+					</div>
+					<div class="cel-number p-1 w-50">
+						<label for="cel-number" class="l-name text-white">Telefone</label>
+						<input required type="text" class="form-control" id="cel-number">
+					</div>
+				</form>
+				<div class="d-grid px-5">
+					<div class="row gap-2">
+						<button class="btn btn-dark col">|&lt;</button>
+						<button class="btn btn-dark col">&lt;</button>
+						<button class="btn btn-dark col">&gt;</button>
+						<button class="btn btn-dark col">&gt;|</button>
+					</div>
+				</div>
+			</div>
+			<div class="d-grid gap-1 row">
+				<button class="btn btn-success text-white col">INCLUIR</button>
+				<button class="btn btn-warning text-white col">EDITAR</button>
+				<button class="btn btn-info text-white col">SALVAR</button>
+				<button class="btn btn-light text-info col">CANCELAR</button>
+				<button class="btn btn-danger text-white col">EXCLUIR</button>
+			</div>
+		</div>
+		<div class="d-flax">
 
+		</div>
+	</div>
+
+<script type="application/javascript" src="js/cad-contato.js"></script>
 </body>
 </html>
