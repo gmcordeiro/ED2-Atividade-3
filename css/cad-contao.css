@@ -9,3 +9,14 @@
 	background-color: #D9D9D9!important;
 	width: 454px;
 }
+
+.content-l{
+	height: calc(100vh - 90px - 1rem);
+}
+
+.footer-h{
+	height: 45px;
+	font-size: 12px;
+	color: #04C9F4!important;
+	background-color: #ffffff!important;
+}
